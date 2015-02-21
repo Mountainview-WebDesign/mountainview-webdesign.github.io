@@ -1,0 +1,7 @@
+title: Mountainview Web Design
+description: Web Development
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+baseurl: http://www.adamwadeharris.com
+exclude: [bower.json, README.md]
