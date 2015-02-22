@@ -10,28 +10,20 @@
 		<link rel="stylesheet" href="{{site.baseurl}}/css/custom.css">
 	</head>
 	<body>
-		<div class="topbar affix-top">
-			<div class="container">
-				<div class="row">
-					<div>
-						<nav class="navbar" role="navigation">
-							<div>
-								<ul>
-									<li>
-										<a title="Home" href="http://www.mountainview-webdesign.com/">Home</a>
-									</li>
-									<li>
-										<a title="Blog" href="http://www.mountainview-webdesign.com/blog/">Blog</a>
-									</li>
-								</ul>
-							</div>
-						</nav>
-					</div>
-				</div>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar" role="navigation">
+					<ul>
+						<li>
+							<a title="Home" href="http://www.mountainview-webdesign.com/">Home</a>
+						</li>
+						<li>
+							<a title="Blog" href="http://www.mountainview-webdesign.com/blog/">Blog</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
-		</div>
-		<header>
-			<div class="container">
+			<header>
 				<div class="row">
 					<div class="col-md-6">
 						<div>
@@ -43,10 +35,11 @@
 						<span class="top-info"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
 					</div>
 				</div>
-			</div>
-		</header>
+			</header>
 
-		{{ content }}
+			{{ content }}
+
+		</div>
 
 		<script type="text/javascript" src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="{{site.baseurl}}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
