@@ -13,44 +13,34 @@
 		<div class="topbar affix-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-9 col-md-9 col-sm-9">
+					<div>
 						<nav class="navbar" role="navigation">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-								<ul data-breakpoint="800" id="menu-menu-1" class="nav navbar-nav">
-									<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-12 active"><a title="Home" href="http://www.mountainview-webdesign.com/">Home</a>
+							<div>
+								<ul>
+									<li>
+										<a title="Home" href="http://www.mountainview-webdesign.com/">Home</a>
 									</li>
-									<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a title="Blog" href="http://www.mountainview-webdesign.com/blog/">Blog</a>
+									<li>
+										<a title="Blog" href="http://www.mountainview-webdesign.com/blog/">Blog</a>
 									</li>
 								</ul>
 							</div>
-
 						</nav>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-9">
 					</div>
 				</div>
 			</div>
 		</div>
-		<header class="header-wrapper">
+		<header>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="logo">
-							<h1><a href="http://www.mountainview-webdesign.com">Mountainview Web Design</a></h1>
-							<span class="tagline">Website Design and Hosting in Salt Lake and Utah Counties</span>
+						<div>
+							<h1><a href="http://www.mountainview-webdesign.com">{{ site.title }}</a></h1>
+							<span class="tagline">{{ site.description }}</span>
 						</div>
 					</div>
 					<div class="col-md-6 alignright">
-						<span class="top-info"><a href="mailto:rebecca@mountainview-webdesign.com">rebecca@mountainview-webdesign.com</a></span>
+						<span class="top-info"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,8 @@
 title: Mountainview Web Design
-description: Web Development
+description: Website Design and Hosting in Salt Lake and Utah Counties
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
 baseurl: http://www.adamwadeharris.com
 exclude: [bower.json, README.md]
+email: rebecca@mountainview-webdesign.com
