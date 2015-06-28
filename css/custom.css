@@ -13,6 +13,12 @@ body {
 .navbar-default .navbar-brand {
 	color: white;
 }
+.navbar-brand > img {
+	max-height: 30px;
+}
+.navbar >.container .navbar-brand {
+	padding-top: 10px;
+}
 .img-responsive {
 	margin: 20px auto;
 }
