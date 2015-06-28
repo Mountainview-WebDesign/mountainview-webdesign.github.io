@@ -11,7 +11,7 @@ body {
 }
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand {
-	color: white;
+	color: #FFF;
 }
 .navbar-brand > img {
 	max-height: 30px;
@@ -26,4 +26,8 @@ body {
 	float: left;
 	margin: 20px;
 	max-width: 300px
+}
+footer {
+	background-color: #555;
+	color: #FFF;
 }
