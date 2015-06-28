@@ -1,10 +1,14 @@
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 .row {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.img-responsive {
+	margin: 20px auto;
+}
+
 .navbar-default {
 	border: 0;
 	background-color: #555;
@@ -19,12 +23,16 @@ body {
 .navbar >.container .navbar-brand {
 	padding-top: 10px;
 }
-.img-responsive {
-	margin: 20px auto;
+
+.hero-area {
+	background-image: url("/assets/images/background.jpg");
+	color: #FFF;
 }
+
 .img-profile {
 	float: left;
-	margin: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	max-width: 300px
 }
 footer {
