@@ -10,35 +10,34 @@
 		<link rel="stylesheet" href="{{site.baseurl}}/css/custom.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<nav class="navbar" role="navigation">
-					<ul>
-						<li>
-							<a title="Home" href="http://www.mountainview-webdesign.com/">Home</a>
-						</li>
-						<li>
-							<a title="Blog" href="http://www.mountainview-webdesign.com/blog/">Blog</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<header class="row">
-				<div class="col-md-6">
-					<div>
-						<h1><a href="http://www.mountainview-webdesign.com">{{ site.title }}</a></h1>
-						<span class="tagline">{{ site.description }}</span>
+		<header>
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="{{ site.baseurl }}/">Home</a>
+						</div>
+						<div id="collapse" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav navbar-right" role="navigation">
+								<li>
+									<a href="{{ site.baseurl }}/about">About</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6">
-					<span>
-						<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-					</span>
-				</div>
+				</nav>
 			</header>
+		<div>
+			<div class="container">
 
-			{{ content }}
+				{{ content }}
 
+			</div>
 		</div>
 
 		<script type="text/javascript" src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
