@@ -1,7 +1,7 @@
 title: Mountainview Web Design
 description:
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 baseurl:
 exclude: [bower.json, README.md]
