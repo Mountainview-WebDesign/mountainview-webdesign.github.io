@@ -5,6 +5,13 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.btn {
+	border-radius: 0;
+	border: 0;
+}
+.btn-primary {
+	background-color: #5c7cab;
+}
 .img-responsive {
 	margin: 20px auto;
 }
@@ -39,3 +46,13 @@ footer {
 	background-color: #555;
 	color: #FFF;
 }
+
+/* Form */
+label {
+	display: inline-block;
+}
+form input, form textarea, form button {
+	display: block;
+	margin-bottom: 20px;
+}
+/* Form */

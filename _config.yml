@@ -6,3 +6,4 @@ permalink: /:title/
 baseurl:
 exclude: [bower.json, README.md]
 email: adam@mountainview-webdesign.com
+analytics: UA-31980509-9
